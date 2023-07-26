@@ -10,3 +10,5 @@
 6) roi 설정은 16번째 줄 X,Y,W,H 수정 
    - X, Y => 시작 좌표
    - W, H => 가로, 세로 길이
+
+7) topic => stopline
