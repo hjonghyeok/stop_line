@@ -7,7 +7,7 @@
 
 5) cd ~/{your_ws} && source devel/setup.bash
 
-6) rosrun stopline stopline_node
+6) rosrun stopline stopline_node.py
 
 7) roi 설정은 16번째 줄 X,Y,W,H 수정 
    - X, Y => 시작 좌표
