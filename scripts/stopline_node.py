@@ -8,7 +8,7 @@ import math
 from std_msgs.msg import Int32
 
 
-cap = cv2.VideoCapture("/home/jh/catkin_ws/src/stopline/scripts/driving.mp4")
+cap = cv2.VideoCapture("/home/jh/catkin_ws/src/stop_line/scripts/driving.mp4")
 
 rospy.init_node("stopline_node", anonymous=True)
 pub = rospy.Publisher("stopline", Int32, queue_size = 10)
